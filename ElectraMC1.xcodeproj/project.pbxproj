@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001F762A2A930B6D00A47D55 /* BudgetingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F76292A930B6D00A47D55 /* BudgetingPlan.swift */; };
+		001F762A2A930B6D00A47D55 /* BudgetingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F76292A930B6D00A47D55 /* BudgetingPlanView.swift */; };
 		001F762C2A9315EF00A47D55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F762B2A9315EF00A47D55 /* Constants.swift */; };
-		001F762E2A93375800A47D55 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F762D2A93375800A47D55 /* Home.swift */; };
-		001F76302A933DF200A47D55 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F762F2A933DF200A47D55 /* Dashboard.swift */; };
+		001F762E2A93375800A47D55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F762D2A93375800A47D55 /* HomeView.swift */; };
+		001F76302A933DF200A47D55 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F762F2A933DF200A47D55 /* DashboardView.swift */; };
 		001F76322A93555100A47D55 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F76312A93555100A47D55 /* ProgressBar.swift */; };
+		0046B93E2A93A67300CB2E3C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B93D2A93A67300CB2E3C /* Onboarding.swift */; };
+		0046B9412A94026F00CB2E3C /* BudgetingPlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B9402A94026F00CB2E3C /* BudgetingPlanViewModel.swift */; };
+		0046B9452A9403F300CB2E3C /* Peralatan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B9442A9403F300CB2E3C /* Peralatan.swift */; };
+		0046B9472A9404FE00CB2E3C /* PeralatanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B9462A9404FE00CB2E3C /* PeralatanViewModel.swift */; };
+		0046B9492A94095C00CB2E3C /* BudgetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B9482A94095C00CB2E3C /* BudgetingModel.swift */; };
+		0046B94B2A940B2A00CB2E3C /* KalkulasiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046B94A2A940B2A00CB2E3C /* KalkulasiView.swift */; };
 		00A203CF2A8F1301006494A6 /* ElectraMC1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A203CE2A8F1301006494A6 /* ElectraMC1App.swift */; };
 		00A203D12A8F1301006494A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A203D02A8F1301006494A6 /* ContentView.swift */; };
 		00A203D32A8F1302006494A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A203D22A8F1302006494A6 /* Assets.xcassets */; };
@@ -23,11 +29,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		001F76292A930B6D00A47D55 /* BudgetingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingPlan.swift; sourceTree = "<group>"; };
+		001F76292A930B6D00A47D55 /* BudgetingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingPlanView.swift; sourceTree = "<group>"; };
 		001F762B2A9315EF00A47D55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		001F762D2A93375800A47D55 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		001F762F2A933DF200A47D55 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		001F762D2A93375800A47D55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		001F762F2A933DF200A47D55 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		001F76312A93555100A47D55 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		0046B93D2A93A67300CB2E3C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		0046B9402A94026F00CB2E3C /* BudgetingPlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingPlanViewModel.swift; sourceTree = "<group>"; };
+		0046B9442A9403F300CB2E3C /* Peralatan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peralatan.swift; sourceTree = "<group>"; };
+		0046B9462A9404FE00CB2E3C /* PeralatanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeralatanViewModel.swift; sourceTree = "<group>"; };
+		0046B9482A94095C00CB2E3C /* BudgetingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingModel.swift; sourceTree = "<group>"; };
+		0046B94A2A940B2A00CB2E3C /* KalkulasiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkulasiView.swift; sourceTree = "<group>"; };
 		00A203CB2A8F1301006494A6 /* ElectraMC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectraMC1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A203CE2A8F1301006494A6 /* ElectraMC1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectraMC1App.swift; sourceTree = "<group>"; };
 		00A203D02A8F1301006494A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +65,20 @@
 		00099B022A8FAD5500FAAE2D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0046B93D2A93A67300CB2E3C /* Onboarding.swift */,
+				0046B9442A9403F300CB2E3C /* Peralatan.swift */,
+				0046B9482A94095C00CB2E3C /* BudgetingModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0046B93F2A94025000CB2E3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0046B9402A94026F00CB2E3C /* BudgetingPlanViewModel.swift */,
+				0046B9462A9404FE00CB2E3C /* PeralatanViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		00A203C22A8F1301006494A6 = {
@@ -76,6 +100,7 @@
 		00A203CD2A8F1301006494A6 /* ElectraMC1 */ = {
 			isa = PBXGroup;
 			children = (
+				0046B93F2A94025000CB2E3C /* ViewModel */,
 				00099B022A8FAD5500FAAE2D /* Models */,
 				00A203E32A8F1466006494A6 /* App */,
 				00A203E22A8F1418006494A6 /* Utils */,
@@ -100,10 +125,10 @@
 				00A203EB2A8F66BD006494A6 /* Text Style */,
 				00A203E62A8F150F006494A6 /* Components */,
 				00A203DD2A8F135E006494A6 /* OnboardingView.swift */,
-				001F76312A93555100A47D55 /* ProgressBar.swift */,
-				001F762F2A933DF200A47D55 /* Dashboard.swift */,
-				001F762D2A93375800A47D55 /* Home.swift */,
-				001F76292A930B6D00A47D55 /* BudgetingPlan.swift */,
+				001F762F2A933DF200A47D55 /* DashboardView.swift */,
+				001F762D2A93375800A47D55 /* HomeView.swift */,
+				001F76292A930B6D00A47D55 /* BudgetingPlanView.swift */,
+				0046B94A2A940B2A00CB2E3C /* KalkulasiView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 		00A203E62A8F150F006494A6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				001F76312A93555100A47D55 /* ProgressBar.swift */,
 				00A203E92A8F660B006494A6 /* PrimaryButton.swift */,
 			);
 			path = Components;
@@ -239,13 +265,19 @@
 				00A203ED2A8F66CE006494A6 /* TextStyle.swift in Sources */,
 				001F76322A93555100A47D55 /* ProgressBar.swift in Sources */,
 				00A203DE2A8F135E006494A6 /* OnboardingView.swift in Sources */,
-				001F76302A933DF200A47D55 /* Dashboard.swift in Sources */,
-				001F762A2A930B6D00A47D55 /* BudgetingPlan.swift in Sources */,
+				001F76302A933DF200A47D55 /* DashboardView.swift in Sources */,
+				0046B9412A94026F00CB2E3C /* BudgetingPlanViewModel.swift in Sources */,
+				001F762A2A930B6D00A47D55 /* BudgetingPlanView.swift in Sources */,
+				0046B9472A9404FE00CB2E3C /* PeralatanViewModel.swift in Sources */,
 				00A203E82A8F15B0006494A6 /* Color+Ext.swift in Sources */,
-				001F762E2A93375800A47D55 /* Home.swift in Sources */,
+				0046B93E2A93A67300CB2E3C /* Onboarding.swift in Sources */,
+				0046B9492A94095C00CB2E3C /* BudgetingModel.swift in Sources */,
+				001F762E2A93375800A47D55 /* HomeView.swift in Sources */,
 				00A203EA2A8F660B006494A6 /* PrimaryButton.swift in Sources */,
+				0046B9452A9403F300CB2E3C /* Peralatan.swift in Sources */,
 				00A203D12A8F1301006494A6 /* ContentView.swift in Sources */,
 				00A203CF2A8F1301006494A6 /* ElectraMC1App.swift in Sources */,
+				0046B94B2A940B2A00CB2E3C /* KalkulasiView.swift in Sources */,
 				001F762C2A9315EF00A47D55 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

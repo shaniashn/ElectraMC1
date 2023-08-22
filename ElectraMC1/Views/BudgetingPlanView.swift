@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct BudgetingPlan: View {
-    @State var budgetInput: Int = 0
-    @State var tarifInput: Int = 0
+    @ObservedObject var budgetingViewModel = BudgetingViewModel()
+    @ObservedObject var peralatanViewModel = PeralatanViewModel()
+    
+    @State var budgetInput: Double = 0
+    @State var tarifInput: Double = 0
+    
+    let numberFormatter: NumberFormatter
+    
+    init(budgetingViewModel: BudgetingViewModel, peralatanViewModel: PeralatanViewModel) {
+        self.budgetingViewModel = budgetingViewModel
+        self.peralatanViewModel = peralatanViewModel
+        if !budgetingViewModel.budgetingList.isEmpty{
+            budgetInput = budgetingViewModel.budgetingList[0].biaya
+            tarifInput = budgetingViewModel.budgetingList[0].tarif
+        }
+        
+        numberFormatter = NumberFormatter()
+        numberFormatter.locale = Locale.current
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 2
+        numberFormatter.zeroSymbol = ""
+    }
+    
     
     var body: some View {
         NavigationStack {
@@ -67,11 +88,5 @@ struct BudgetingPlan: View {
             .background(Color.blue50)
             .edgesIgnoringSafeArea(.bottom)
         }
-    }
-}
-
-struct BudgetingPlan_Previews: PreviewProvider {
-    static var previews: some View {
-        BudgetingPlan()
     }
 }

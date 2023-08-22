@@ -76,8 +76,8 @@ struct Home: View {
                         .cornerRadius(12)
                 }
                 .sheet(isPresented: $addItem){
-    //                Kalkulasi(addItem: $addItem, toolViewModel: toolViewmodell)
-    //                    .presentationDetents([.medium, .large])
+                    KalkulasiView(addItem: $addItem, toolViewModel: PeralatanViewModel())
+                        .presentationDetents([.medium, .large])
                 }
             }
             .padding(.horizontal, 32)
@@ -86,9 +86,3 @@ struct Home: View {
         }
     }
 }
-
-//struct Home_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Home
-//    }
-//}

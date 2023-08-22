@@ -35,6 +35,26 @@ class PeralatanViewModel: ObservableObject {
         return resultIndex
     }
     
+    func editTool(index: Int, name: String, quantity: Int, power: Int, usageTimePerHour: Int, repeatDays: Int) {
+        let editTool = Peralatan(index: index, name: name, quantity: quantity, power: power, usageTimePerHour: usageTimePerHour, repeatDays: repeatDays)
+        let editedIndex: Int = getIndex(index: index)
+        
+        tools[editedIndex] = editTool
+        saveTools()
+    }
+    
+    func getDetail(index: Int) -> Peralatan {
+        var resultData: Peralatan = Peralatan(index: 0, name: "", quantity: 0, power: 0, usageTimePerHour: 0, repeatDays: 0)
+        
+        for i in tools {
+            if (i.index == index){
+                resultData = i
+            }
+        }
+        
+        return resultData
+    }
+    
     func saveTools() {
         if let encodedData = try? JSONEncoder().encode(tools) {
             UserDefaults.standard.set(encodedData, forKey: "tools")

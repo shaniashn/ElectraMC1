@@ -22,7 +22,7 @@ struct ProgressBar: View {
                 .stroke(
                     Color.myYellow, style: StrokeStyle(lineWidth: 16, lineCap: .round))
                 .rotationEffect(Angle(degrees: -90))
-                .animation(Animation.easeInOut(duration: 1.0))
+            
             VStack{
                 Text("\(String(format: "%.1f", persentase()))%")
                     .font(.system(size: 22, weight: .semibold, design: .default))
@@ -46,9 +46,4 @@ struct ProgressBar: View {
         return degree2
     }
 }
-//
-//struct ProgressBar_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ProgressBar()
-//    }
-//}
+

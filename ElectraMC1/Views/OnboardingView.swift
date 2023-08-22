@@ -29,7 +29,7 @@ struct OnboardingView: View {
                 }
                 
                 PrimaryButton(title: "Mulai") {
-//                    Home(budgetHomeViewModel: budgetingViewModel, peralatanViewModel: peralatanViewModel)
+                    
                 }
             }
             

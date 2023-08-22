@@ -147,8 +147,3 @@ struct KalkulasiView: View {
     }
 }
 
-//struct Kalkulasi_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Kalkulasi()
-//    }
-//}
